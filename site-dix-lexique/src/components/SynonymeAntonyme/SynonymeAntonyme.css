@@ -1,0 +1,49 @@
+.text-game-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .option-button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+
+ 
+  
+  .next-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+
+  
+  .result-screen {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

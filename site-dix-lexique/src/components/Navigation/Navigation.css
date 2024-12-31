@@ -1,0 +1,76 @@
+
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 22px ; 
+  background-color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(94, 183, 241);
+}
+
+#nomParc{
+
+  font-size: 2vw;
+  color:  rgb(94, 183, 241);
+}
+
+.navigation {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+}
+
+.navigation li {
+
+  margin-right: 20px; 
+
+}
+
+.navigation li p {
+
+  font-size: 1.2vw;
+}
+  
+.navigation li:last-child {
+
+  margin-right: 0; 
+}
+
+.navigation li a {
+
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.navigation li p:hover {
+    color:  rgb(94, 183, 241);
+}
+
+
+/*
+#burger-menu {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 780px){
+    #burger-menu {
+        display: block;
+    }
+    
+    
+}*/

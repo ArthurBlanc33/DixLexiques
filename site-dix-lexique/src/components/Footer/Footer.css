@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(94, 183, 241);
+    padding: 3% 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-block{
+
+    width: 15%;
+
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.footer-bottom{
+    margin-top: 5%;
+}
+
+#logo-ensc{
+
+    height: 5vw;
+}

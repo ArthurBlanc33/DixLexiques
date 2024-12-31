@@ -1,0 +1,56 @@
+.test-banniere {
+    position: relative;
+    display: flex;
+    height: 450px; /* Adjust height as needed */
+    overflow: hidden;
+    
+}
+
+.image-banniere {
+    position: absolute;
+    top: 0;
+    left: 10%;
+
+}
+
+.test-presentation {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    background: rgb(44, 181, 223); /* Background color without transparency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 0, 80% 0, 100% 100%, 0% 100%); /* Diagonal cut effect on the right */
+}
+
+.test-text {
+    padding: 20px;
+    width: 70%;
+    text-align: left;
+}
+
+.test-text > *{
+
+    color: white;
+}
+
+.test-text h1{
+
+    font-size: 3vw;
+}
+
+.test-text p{
+
+    font-size: 1.3vw;
+}
+
+.btn-up{
+    width: 20%;
+    margin-bottom: 8%;
+}
+
+.btn-up:hover{
+    cursor: pointer;
+}

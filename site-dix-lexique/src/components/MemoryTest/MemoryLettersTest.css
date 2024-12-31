@@ -1,0 +1,87 @@
+.memory-game-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .start-screen, .win-screen, .game-over-screen {
+    margin-top: 50px;
+  }
+  
+  .letters-display {
+    margin: 20px 0;
+  }
+  
+  .letters {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .instruction {
+    font-size: 1.5rem;
+    color: gray;
+  }
+  
+  .input-section {
+    margin-top: 20px;
+  }
+  
+  input {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+  }
+  
+  
+  
+  /* Progress Bar */
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 8px; /* Thinner bar */
+  margin: 10px 0;
+  overflow: hidden; /* Ensure no overflow from animated fill */
+}
+
+.progress-bar-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #1e90ff, #4682b4);
+  border-radius: 5px;
+  animation: none; /* Animation applied dynamically via inline styles */
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Keyframe for progress animation */
+@keyframes fillProgress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

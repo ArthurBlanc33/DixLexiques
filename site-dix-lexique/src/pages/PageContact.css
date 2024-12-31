@@ -1,0 +1,138 @@
+.contact-banniere {
+    position: relative;
+    display: flex;
+    height: 450px; /* Adjust height as needed */
+    overflow: hidden;
+    
+}
+
+.image-banniere {
+    position: absolute;
+    top: 0;
+    left: 10%;
+
+}
+
+.contact-presentation {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    background: rgb(44, 181, 223); /* Background color without transparency */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 0, 80% 0, 100% 100%, 0% 100%); /* Diagonal cut effect on the right */
+}
+
+.contact-text {
+    padding: 20px;
+    width: 70%;
+    text-align: left;
+}
+
+.contact-text > *{
+
+    color: white;
+}
+
+.contact-text h1{
+
+    font-size: 3vw;
+}
+
+.contact-text p{
+
+    font-size: 1.3vw;
+}
+
+.btn-up{
+    width: 20%;
+    margin-bottom: 8%;
+}
+
+.btn-up:hover{
+    cursor: pointer;
+}
+
+.contact-form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+    margin-top: 20px;
+}
+
+.contact-form-section h2 {
+    font-size: 2rem;
+    color: #2cb5df;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2cb5df;
+    box-shadow: 0 0 5px rgba(44, 181, 223, 0.3);
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #2cb5df;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2296bb;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact-info h2 {
+    font-size: 1.8rem;
+    color: #2cb5df;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+}

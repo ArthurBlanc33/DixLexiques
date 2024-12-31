@@ -1,0 +1,79 @@
+
+.presentation{
+    background-color: rgb(255, 255, 255);
+    padding-top: 3%;
+    padding-bottom: 1px; /*permet de corriger un espace (assez bizarre) avec le footer*/
+}
+
+.presentation h2{
+
+    font-size: 2vw;
+}
+
+.presentation-header{
+    height: 50px;
+    background-color: white;
+   
+}
+
+.presentation-projet{
+    padding: 5%;
+}
+
+.btn-accueil{
+
+    border-radius: 5px;
+    background-color: rgb(94, 183, 241);
+    width: 30%;
+    padding: 3px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.btn-accueil p{
+    text-align: center;
+    color: white;
+    font-size: 1.4vw;
+}
+
+
+.presentation-projet-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+
+}
+
+.presentation-projet-section{
+
+    width: 600px;
+}
+
+
+.section-projet p {
+
+    margin-top: 5%;
+}
+
+
+#project-image{
+
+    width: 500px;
+}
+
+.presentation-activité h2{
+    
+    text-align: center;
+}
+
+.image-banniere {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+

@@ -1,0 +1,35 @@
+h1, h2, h3 {
+    
+    color : black;
+    
+}
+
+
+h4,h5,h6{
+    color : black;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.App{
+    background-color: rgb(85, 145, 224);
+}
+
+* { /*Attention le css s'applique à tous les components*/
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; /*je comprend pas ça marche que quand je le met dans le selecteur all*/
+
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h1, li{
+   color : black;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+}

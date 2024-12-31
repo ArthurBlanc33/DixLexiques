@@ -1,0 +1,70 @@
+/* IntruderMatrix.css */
+.intruder-matrix-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #b3e5fc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .matrix {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .matrix-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .matrix-cell {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e0f7fa;
+    border: 2px solid #0288d1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .matrix-cell:hover {
+    background-color: #b2ebf2;
+  }
+  
+  .matrix-cell::selection{
+    background-color: #3a7ac4;
+  }
+
+  .timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .score {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  
+  .restart-button {
+    background-color: #0288d1;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+ 

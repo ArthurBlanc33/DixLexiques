@@ -1,0 +1,72 @@
+.letter-matrix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #87ceeb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .matrix {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .matrix-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .matrix-cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    background-color: #ffffff;
+    color : black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .matrix-cell:hover {
+    background-color: #f0f8ff;
+    transform: scale(1.1);
+  }
+  
+  .matrix-cell.selected {
+    background-color: #ffcccb; /* Light red for selected cells */
+  }
+  
+  .score {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .score p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .restart-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  

@@ -1,0 +1,44 @@
+#banniere{
+    width:100%;
+    filter: brightness(0.9);
+    display: block; /*corrige un petit gap de blanc car l'image est en inline par défault*/
+}
+
+.accueil{
+    position: relative;
+    text-align: center;
+}
+
+
+#mascotte{
+    position: absolute; 
+    width: 41%;
+    height: auto;
+    top: 62%; 
+    left: 12%; 
+    transform: translate(-50%, -50%); 
+    z-index: 100;
+}
+
+#devise{
+    position: absolute; 
+    top: 78%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1.5vw;
+    text-align: center; 
+    text-shadow: 1px 4px 3px black,1px 4px 3px black,1px 4px 3px black;
+
+}
+
+#slogan {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 5vw; 
+    text-align: center; 
+    text-shadow: 1px 8px 3px black,1px 8px 3px black,1px 8px 3px black;
+}
