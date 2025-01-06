@@ -1,4 +1,4 @@
 [build]
   base = "site-dix-lexique"
   publish = "build"
-  command = "NODE_OPTIONS=--openssl-legacy-provider npm run build"
+  command = "CI= npm run build"
