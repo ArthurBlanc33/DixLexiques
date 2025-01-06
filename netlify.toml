@@ -1,0 +1,4 @@
+[build]
+base = "site-dix-lexique"
+publish = "build"
+command = "npm run build"
